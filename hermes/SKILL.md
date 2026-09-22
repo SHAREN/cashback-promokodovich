@@ -12,7 +12,9 @@ description: "Cashback Промокодович: личная SQLite-база е
 - CLI: `/home/renat/.hermes/cashback-promokodovich/cashback_promokodovich.py`
 - SQLite: `/home/renat/.hermes/cashback-promokodovich/cashback.sqlite3`
 - PWA: `https://webuirenat.duckdns.org/cashback/` — мобильная страница с текущим месяцем и офлайн-кэшем.
+- Private GitHub backup: `SHAREN/cashback-promokodovich` — код PWA, документация и снимок Hermes-модуля; живую SQLite и секреты туда не коммитить.
 - При изменениях реальной SQLite через CLI `data.json` для PWA публикуется автоматически; `daily-sync` также обновляет публикацию, поэтому на границе нового месяца страница переключается на текущий месяц.
+- В PWA не должно быть кнопки копирования/генерации текста для Mir Pay без нового явного запроса пользователя.
 - Не дублировать категории кэшбэка в `USER.md`, `MEMORY.md`, заметках или Kanban-body как источник истины.
 - Kanban `life` используется только для ежемесячной человеческой задачи «собрать/заполнить кэшбэки», а сами категории хранятся в SQLite.
 
