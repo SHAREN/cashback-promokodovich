@@ -1,0 +1,20 @@
+# Runtime/personal data
+data.json
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+
+# Secrets and local runtime
+.env
+.env.*
+runtime.env
+secrets/
+*.key
+*.pem
+
+# Generated/local noise
+__pycache__/
+*.pyc
+.DS_Store

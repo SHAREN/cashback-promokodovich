@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="color-scheme" content="dark">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Cashback Промокодович</title>
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="./icon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="hero">
+      <div class="brand">
+        <div class="brand-icon" aria-hidden="true">%</div>
+        <div>
+          <div class="eyebrow">Cashback Промокодович</div>
+          <h1>Кэшбэки</h1>
+        </div>
+      </div>
+      <div class="period-row">
+        <span id="period" class="period">—</span>
+        <span id="mode" class="mode">загрузка…</span>
+      </div>
+    </header>
+    <section id="banks" class="banks" aria-live="polite"></section>
+    <section id="empty" class="empty hidden">
+      <div class="empty-icon">↻</div>
+      <h2>Данные пока не загрузились</h2>
+      <p>Подключись к интернету один раз — после этого последняя версия будет открываться офлайн.</p>
+      <button id="retry" type="button">Повторить</button>
+    </section>
+    <footer class="footer">
+      <span id="updated">—</span>
+      <button id="install" class="install hidden" type="button">Добавить на экран</button>
+    </footer>
+  </main>
+  <script src="./app.js" defer></script>
+</body>
+</html>
